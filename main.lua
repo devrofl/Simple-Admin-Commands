@@ -2,14 +2,6 @@
     rofl#1356
 ]]--
 
-if fw == true then
-    warn("Admin is already running.")
-    return
-end
-
-pcall(function()
-    getgenv().fw = true
-end)
 
 --// VARIABLES
 
